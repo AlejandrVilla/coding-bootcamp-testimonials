@@ -1,0 +1,114 @@
+@import "../scss/base.scss";
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.image-content{
+    display: grid;
+    grid-template-rows: auto 0;
+    justify-items: center;
+    margin: 0 0 70px 0;
+}
+
+.icons{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.prev-icon{
+    cursor: pointer;
+}
+
+.next-icon{
+    cursor: pointer;
+}
+
+.user-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.quotes{
+    position: absolute;
+    top: -50px;
+    scale: 0.5;
+}
+
+.text{
+    width: 310px;
+    text-align: center;
+    color: $dark-blue;
+    font-weight: $font-weight-1;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username{
+    margin: 20px 0 0 0;
+    font-weight: $font-weight-3;
+    color: $dark-blue;
+}
+
+.job{
+    color: $grayish-blue;
+    font-weight: $font-weight-2;
+}
+
+@media(width >= 1200px){
+    .card{
+        flex-direction: row-reverse;
+    }
+    .image-content{
+        margin: 0;
+    }
+    .icons{
+        left: -120px;
+    }
+    .user-content{
+        position: relative;
+        left: 60px;
+        justify-content: space-evenly;
+    }
+    .quotes{
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        scale: 0.9;
+    }
+    .text{
+        margin: 120px 0 0 0;
+        font-size: 32px;
+        width: 631px;
+        text-align: start;
+        // word-spacing: 5px;
+        line-height: 40px;
+    }
+    .user-info{
+        flex-direction: row;
+        align-self: self-start;
+        margin: 0 0 70px 0;
+    }
+    .username{
+        margin: 0 10px 0 0;
+    }
+}

@@ -1,0 +1,23 @@
+@import "./scss/base.scss";
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.curve{
+    position: absolute;
+    scale: 0.5;
+    bottom: -118px;
+    left: -150px;
+}
+
+@media (width>=1200px){
+    .curve{
+        scale: 1;
+        bottom: -100px;
+        left: 0;
+    }
+}

@@ -1,0 +1,36 @@
+@import "../scss/base.scss";
+
+.img-div{
+    position: relative;
+    height: 245px;
+    width: 245px;
+    border-radius: 5px;
+}
+
+.bgsvg{
+    position: absolute;
+    scale: 0.5;
+    top: -220px;
+    left: -240px;
+}
+
+.img{
+    position: absolute;
+    width: 245px;
+}
+
+@media(width >= 1200px){
+    .img-div{
+        height: 500px;
+        width: 500px;
+    }
+    .img{
+        width: 500px;
+    }
+    .bgsvg{
+        position: absolute;
+        scale: 0.9;
+        top: -80px;
+        left: -80px;
+    }
+}

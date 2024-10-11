@@ -1,0 +1,9 @@
+@import "./scss/base.scss";
+
+#root{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+}
