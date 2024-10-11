@@ -24,7 +24,7 @@ This is a solution to the [Coding bootcamp testimonials slider challenge on Fron
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/product-list-with-cart-IuQcx0VmpS)
-- Live Site URL: [Live site](https://alejandrvilla.github.io/product-list-with-cart/)
+- Live Site URL: [Live site](https://alejandrvilla.github.io/coding-bootcamp-testimonials/)
 
 ## My process
 
