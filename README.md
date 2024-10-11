@@ -23,7 +23,7 @@ This is a solution to the [Coding bootcamp testimonials slider challenge on Fron
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/product-list-with-cart-IuQcx0VmpS)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/coding-bootcamp-testimonials-vAY4SxY00N)
 - Live Site URL: [Live site](https://alejandrvilla.github.io/coding-bootcamp-testimonials/)
 
 ## My process
